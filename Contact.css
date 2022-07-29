@@ -1,0 +1,169 @@
+body{
+	position: absolute;
+	background-color: #ffdfcc;
+	left: 200px;
+	width: 1120px;
+}
+
+	.header{
+	width: 1120px;
+	height: 127px;
+	align-content: center;
+	background-color: rgb(155, 118, 118);
+	border: 1px black;
+	top: -10px;
+	position: absolute;
+}
+
+	.logo{
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+
+	.topnav{
+	align-content: center;
+	overflow: hidden;
+	height: 150px;
+}
+
+	.topnav a {
+	font-size: 15px;
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 10px ;
+	margin: 30px;
+	text-decoration:none;
+	font-family: cursive;
+}
+
+	.topnav a:hover{
+	color: rgb(255, 161, 47);
+}
+
+
+.query{
+	position: absolute;
+	top: 150px;
+	left: 650px;
+	/*transform: translate(-50%,-50%);*/
+	max-width: 400px;
+	width: 100%;
+	background: whitesmoke;
+	padding: 30px;
+	border-radius:3px ;
+	box-shadow: 4px 4px 2px rgb(96, 79, 126);
+
+}
+
+.query h2
+{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: rgb(97, 58, 32);
+}
+
+.query .input_field
+{
+	margin-bottom: 10px;
+
+}
+
+.query .input_field input[type="text"],
+.query textarea{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+.query textarea
+{
+	height: 80px;
+	resize: none;
+
+}
+.query .button input[type="submit"]
+{
+	border: 0px;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: skyblue;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	border-radius: 25px;
+	cursor: pointer;
+
+}
+
+.query #error_message{
+	margin-bottom: 20px;
+	padding: 0px;
+	width: 100%;
+	background: yellow;
+	text-align: center;
+	font-size: 17px;
+	font-family: monospace;
+	transition: all 0.5s ease;
+}
+
+
+
+	.footer{
+    width: 1120px;
+	height: 130px;
+	align-content: center;
+	top: 1285px;
+	background-color: rgb(155, 118, 118);
+	border: 1px black;
+	position: absolute;
+	left: -2px;
+}
+
+	.footerlogo{
+	position: absolute;
+	left: 995px;
+	top: 5px;
+}
+
+	.link{
+	position: absolute;
+	left: 450px;
+	top:50px;
+}
+
+	.Copyright{
+	position: absolute;
+	left: 350px;
+	top:70px;
+}
+.detail h1{
+	position: relative;
+	left: 30px;
+	top: 150px;
+    color: rgb(73, 25, 25);
+    font-family:Lucida Handwriting;
+}
+.detail h2{
+	position: relative;
+	left: 30px;
+	top: 170px;
+    color: rgb(73, 25, 25);
+    font-family:Lucida Handwriting;
+}
+.detail p{
+	position: relative;
+	left: 40px;
+	font-family: cursive;
+	color: rgb(15, 11, 11);
+	top: 150px;
+}
+.location{
+	position: absolute;
+	top: 800px;
+}

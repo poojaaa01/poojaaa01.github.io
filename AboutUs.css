@@ -1,0 +1,102 @@
+body{
+	position: absolute;
+	background-color: #ffdfcc;
+	left: 200px;
+	width: 1120px;
+}
+.header{
+	width: 1120px;
+	height: 127px;
+	align-content: center;
+	background-color: rgb(155, 118, 118);
+	border: 1px black;
+	top: -10px;
+	position: absolute;
+}
+.logo{
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+.topnav{
+	align-content: center;
+	overflow: hidden;
+	height: 150px;
+}
+.topnav a {
+	font-size: 15px;
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 10px ;
+	margin: 30px;
+	text-decoration:none;
+	font-family: cursive;
+}
+.topnav a:hover{
+	color: rgb(255, 161, 47);
+}
+.footer{
+    width: 1120px;
+	height: 130px;
+	top: 700px;
+	background-color: rgb(155, 118, 118);
+	border: 1px black;
+	position: absolute;
+    left: -228px;
+}
+.footerlogo{
+	position: absolute;
+	left: 995px;
+	top: 5px;
+}
+.link{
+	position: absolute;
+	left: 450px;
+	top:50px;
+}
+.Copyright{
+	position: absolute;
+	left: 350px;
+	top:60px;
+}
+.description{
+	position: absolute;
+	top: 120px;
+	font-size: 21px;
+	color: rgb(73, 25, 25);
+}
+.vl {
+	position: absolute;
+	left: 215px;
+	top: 150px;
+	border-left: 4px solid black;
+  	height: 550px;
+}
+.paragraph{
+	position: absolute;
+	left: 230px;
+	top: 150px;
+	text-align: justify;
+	font-size: 20px;
+}
+.description1{
+	position: absolute;
+	top: 350px;
+	left: -215px;
+	font-size: 21px;
+	color: rgb(73, 25, 25);
+}
+.goal{
+	position: relative;
+	text-align: justify;
+	font-size: 20px;
+	left: 3px;
+	top: 10px;
+}
+.coolwebsite{
+	position: absolute;
+	top: 660px;
+	left: 200px;
+	font-size: 20px;
+}
