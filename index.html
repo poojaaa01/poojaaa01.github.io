@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pooja's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/acc5b553a5.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates and Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm <span> Pooja Pantha </span><br>From Nepal</h1>
+        <span id="element"></span>
+      </div>
+    </div>
+  </div>
+  <!--about-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated and results-oriented Information Technology graduate with hands-on experience in full
+            stack development, cloud deployment,
+            mobile app creation, and network support. My academic journey and project work have helped me build a solid
+            foundation in software development,
+            networking, and data-driven applications. I enjoy designing and developing impactful digital solutions,
+            including websites, mobile applications,
+            and cloud-integrated systems, while exploring data science tools and methodologies. I am deeply motivated to
+            expand my knowledge through research
+            and advanced studies, with a strong interest in contributing to innovative and interdisciplinary tech
+            solutions.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Python</span><br>Used for scripting, data analysis, and backend logic implementation.</li><br>
+              <li><span>SQL</span><br>Managed and queried relational databases for data retrieval and manipulation.</li>
+              <br>
+              <li><span>R</span><br>Performed statistical analysis and data visualization tasks.</li><br>
+              <li><span>MATLAB</span><br>Handled image and video processing tasks for academic projects.</li><br>
+              <li><span>Kotlin</span><br>Built Android apps with modern UI using Jetpack Compose.</li><br>
+              <li><span>Flutter</span><br>Created cross-platform mobile apps integrated with Firebase services.</li><br>
+              <li><span>Cloud Computing</span><br>Worked with AWS (EC2, Lambda, S3, Elastic Beanstalk) and Microsoft
+                Azure, utilizing IaaS, PaaS, and FaaS models for scalable application deployment.</li><br>
+              <li><span>C</span><br>Worked on procedural programming and basic system-level tasks.</li><br>
+              <li><span>C++</span><br>Applied object-oriented concepts for competitive programming and projects.</li>
+              <br>
+              <li><span>C#</span><br>Used for desktop applications and Unity-based development.</li><br>
+              <li><span>Java</span><br>Built console and GUI-based applications during coursework.</li><br>
+              <li><span>JavaScript</span><br>Enabled dynamic behavior in websites and interactive UI elements.</li><br>
+              <li><span>CSS</span><br>Styled responsive web pages with modern design principles.</li><br>
+              <li><span>HTML</span><br>Structured content for websites and web applications.</li><br>
+              <li><span>PHP</span><br>Created server-side scripts for basic web backend functionality.</li><br>
+              <li><span>Adobe Photoshop</span><br>Edited images and created visual assets for web and mobile UI.</li>
+              <br>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Leeds Beckett University (Sep 2021- Sep 2025)</span><br>Bachelor of Science with Honours in
+                Computing</li><br>
+              <li><span>Everest English Boarding Secondary School (Jul 2018 - Dec 2020)</span><br>High School Education
+                (Science)</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----Experience----->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="services-list">
+            <div>
+              <i class="fa-solid fa-people-line"></i>
+                <h2>Admissions Counsellor Intern at The British College</h2>
+                <p>May 2024 - Aug 2024</p>
+                <a href="#">Letter of Recommendation</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-mobile-screen"></i>  
+                <h2>Digital Marketing Intern at IIDE</h2>
+                <p>Jan 2024 - Feb 2024</p>
+                <a href="IIDE.pdf">Letter of Experience</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-wifi"></i>
+                <h2>Backend Networking Intern at CG Net</h2>
+                <p>Mar 2023 - Apr 2023</p>
+                <a href="https://cgnet.com.np/">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-database"></i>
+                <h2>Academic Evaluation Intern at Globalshala Education</h2>
+                <p>Jan 2022 - Sep 2022</p>
+                <a href="GS LOR.pdf">Letter of Recommendation</a>
+                <a href="GS.pdf">Certificate of Internship</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------Certificates and Projects--------------->
+<div id="certificates">
+  <div class="container">
+    <h1 class="sub-title">Certificates and Projects</h1>
+    <div class="project-list">
+      <div class="project">
+        <img src="images/logo.png">
+        <div class="layer">
+          <h3>Moksha</h3>
+          <p>A smart mental health app offering mood tracking, guided breathing, relaxing sounds, meditation timer, anonymous story sharing, and counseling bookings. Built with Flutter and Firebase.</p>
+          <a href="https://github.com/poojaaa01/fyp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/HHF.png">
+        <div class="layer">
+          <h3>HudderHub Fresh</h3>
+          <p>A PHP & SQL-based grocery e-commerce platform with customer login, cart, checkout, and separate Admin and Trader logins for product and inventory management.</p>
+          <a href="https://github.com/Agarwal7Tarun/L5_Team_Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/hult.jpg">
+        <div class="layer">
+          <h3>Organizer</h3>
+          <p>Served on the Organizing Committee as a Content Writer and Social Media Strategist. Led digital marketing efforts and crafted promotional content for the global entrepreneurship competition.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/tbc.png">
+        <div class="layer">
+          <h3>Career Quest & Job Fair 3.0</h3>
+          <p>Program Manager at Career Quest and Front Desk Coordinator for Job Fair 3.0. Handled event execution, registration, and participant support.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+        <div class="project hidden">
+        <img src="images/IIDE.png">
+        <div class="layer">
+          <h3>How To Start Your Agency</h3>
+          <a href="agency.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project hidden">
+        <img src="images/IIDE.png">
+        <div class="layer">
+          <h3>Facebook & Instagram Ads</h3>
+          <a href="ads.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project hidden">
+        <img src="images/IIDE.png">
+        <div class="layer">
+          <h3>Resume Building Masterclass</h3>
+          <a href="masterclass.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <a href="#" class="btn" id="seeMoreBtn">See more</a>
+  </div>
+</div>
+
+<!----Contact Page-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>panthapooja5@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977 9860273691</p>
+                <div class="social-icons">
+                    <a href = "https://www.linkedin.com/in/pooja-pantha-43583b220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href = "https://github.com/poojaaa01"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">My Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-Mail" required>
+                    <textarea name="Message" id="" cols="30" rows = "6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Pooja Pantha 2025. </p>
+    </div>
+</div>
+
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full Stack Developer', 'Mobile App Developer', 'Cloud Application Developer', 'UI/UX Designer', 'Network Operations', 'Data Science Enthusiast', 'AI Enthusiast'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+  const seeMoreBtn = document.getElementById('seeMoreBtn');
+  const hiddenProjects = document.querySelectorAll('.project.hidden');
+
+  seeMoreBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    hiddenProjects.forEach(project => {
+      project.classList.remove('hidden');
+    });
+    seeMoreBtn.style.display = 'none';
+  });
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzQ_9QnYNOt0vHDKOYK131w6MeaKoC1HkpmDEq2X8iSbVlQ8E8ZciwpJ5g5Mflm6VY/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Submitted Successully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+
+</html>
