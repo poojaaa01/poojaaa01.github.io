@@ -14,7 +14,7 @@ body{
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(Images/portrait.jpg);
+  background-image: url(images/portrait.jpg);
   background-repeat: no-repeat;
   background-size: auto 80%; /* Adjust image height while keeping aspect ratio */
   background-position: right center; /* Move image to the right */
