@@ -280,6 +280,29 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+<a href="#header" class="back-to-top">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
+<script>
+  const backToTop = document.querySelector('.back-to-top');
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', () => {
+    // Get the height of the header section
+    const headerHeight = header.offsetHeight;
+
+    // Show button only after scrolling past the header
+    if (window.scrollY > headerHeight) {
+      backToTop.style.display = 'block';
+    } else {
+      backToTop.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
+
 
 
 </body>

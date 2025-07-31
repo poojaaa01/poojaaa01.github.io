@@ -327,6 +327,25 @@ form .btn2{
   font-weight: 300;
   margin-top: 20px;
 }
+.back-to-top {
+  display: none;
+  background-color: #fff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #000;
+  padding: 12px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background-color: #ff004f;
+}
+
 /*----small screen---*/
 nav .fa-solid{
   display: none;
