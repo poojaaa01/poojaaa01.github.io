@@ -323,10 +323,10 @@ nav .fa-solid{
   #header {
   background-image: none
 }
-.header.text{
-    margin-top: 100%;
+.header-text{
+    margin-top: 30vh;
     align-content: center;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
   }
   .header-text h1{
