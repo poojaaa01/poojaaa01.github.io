@@ -282,6 +282,18 @@ p{
   color: #ff004f;
   transform: translateY(-5px);
 }
+.btn.btn1{
+  display: block;
+  margin:50px auto;
+  margin-left: 0px;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color:#fff;
+  transition: background 0.5s;
+}
 .btn.btn2{
   display: inline-block;
   background: #ff004f;
